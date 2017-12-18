@@ -30,7 +30,7 @@ If you want to run more tests you can add new sizes at the chunks array
 
 **running**
 
-node index.js <chunk size>
+node index.js [chunk size]
 
 **dependencies**
     
