@@ -13,9 +13,9 @@ or
     
     node test.js  
         
-test.js verify that, for the chunk size that is passed to the m=migration program, the size of the collection remains equal to the size of startibg data. It verifies also ona a sample customer that the address inserted is the expected one
+test.js verify that, for the chunk size that is passed to the migration program, the size of the collection remains equal to the size of starting data. It verifies also, on a sample customer, that the address inserted is the expected one.( that is that the customer with id 500 has the address at the line 500)
 
-When you run the test you will have an output as this
+When you run the test you will have a few outputs like this
 
     ===================== 
     
@@ -23,9 +23,8 @@ When you run the test you will have an output as this
     
     time: [xx] milliseconds
 
-and so on. 
 
-If you want to run more test you can add chunksizes in the chunks array
+If you want to run more tests you can add new sizes at the chunks array
 
     const chunks = [100, 10, 30, 50 ] 
 
@@ -37,5 +36,3 @@ node index.js <chunk size>
     
     * async
     * mongodb
-    
-**    
